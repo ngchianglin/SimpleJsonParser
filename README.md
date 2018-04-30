@@ -33,9 +33,7 @@ A TestCasesSimpleJsonParser.java can be used to test the parser. It uses the tes
 * Modify TestCasesSimpleJsonParser.java and change the variable _testSuitePath_ to point to the directory containing the test files.
 * Compile and run TestCasesSimpleJsonParser
 
-All the test cases should passed except for fail18.json which test for depth of nesting square brackets eg. "[[[]]]". 
-SimpleJsonParser will pass this, as it currently doesn't have limit on default depth. 
-
+All the test cases should passed. 
 
 A Findbugs scan has also been done on SimpleJsonParser.  No serious bug is found so far. A copy of the Findbugs result, FindBugsResults.html is in the repository. 
 
